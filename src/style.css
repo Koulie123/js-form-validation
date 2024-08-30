@@ -1,0 +1,8 @@
+fieldset {
+  display: grid;
+  grid-template-columns: fr fr;
+  width: 20rem;
+}
+input:invalid {
+  border: 2px solid red;
+}
